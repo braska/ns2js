@@ -1,6 +1,8 @@
 # Nested Set to JavaScript object converter.
 
-*Note: this converter usable only with sorted by left key array of objects. More over, first object in array must be root of set and only one root allowed.*
+ns2js is converter from nested set (array of objects that have right and left key fields) to JavaScript array of objects, each of which is root of nested set and contains `children` field.
+
+*Note: this converter usable only with sorted by left key array of objects.*
 
 ## Usage
 
@@ -26,3 +28,5 @@ Categories.orderBy('lft').fetch().then((ns) => {
   console.log(result);
 });
 ```
+
+See [test.js](test.js) for more information.

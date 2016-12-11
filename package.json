@@ -1,7 +1,7 @@
 {
   "name": "ns2js",
-  "version": "1.0.1",
-  "description": "Convert Nested Set to JavaScript object",
+  "version": "2.1.0",
+  "description": "Convert Nested Set to JavaScript array of roots of nested set",
   "main": "index.js",
   "repository": "git@github.com:braska/ns2js.git",
   "keywords": [
